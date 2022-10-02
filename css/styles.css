@@ -383,6 +383,7 @@ li{
     justify-content: center;
     padding: 0;
     margin: 0;
+    color:#AFB1B8;
 }
 .team__social-media--link{
     display: flex;
@@ -403,7 +404,6 @@ li{
     fill: currentColor;
 }
 /* section 5 */
-
 .client__list{
     display: flex;
     gap:30px;
