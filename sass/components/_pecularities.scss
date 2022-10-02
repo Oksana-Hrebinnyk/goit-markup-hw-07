@@ -1,0 +1,35 @@
+.pecularities{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.pecularities__list{
+    width: 270px;
+}
+.second__section{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 30px;
+}
+.second__section-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-bs-cl);
+    margin-bottom: 30px;
+    height: 120px;
+}
+.pecularities__heading{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    margin-bottom: 10px;
+}
+.pecularities__text{
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: #757575;
+}

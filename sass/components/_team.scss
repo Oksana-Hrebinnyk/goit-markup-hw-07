@@ -1,0 +1,36 @@
+.team{
+    background: var(--second-bs-cl);
+}
+.team__photos{
+    display: flex;
+    gap: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+.team__member{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.team__inf{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.team__inf--name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.team__inf--position{
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: var(--second-txt-cl);
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 16px;
+
+}

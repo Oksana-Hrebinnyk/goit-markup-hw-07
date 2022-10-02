@@ -1,0 +1,53 @@
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2F303A; 
+}
+.logo--white{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+    color: var(--white-txt-cl);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer__adress{
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--white-txt-cl);
+    margin-bottom: 9px;
+}
+.footer__contacts{
+    margin: 0px;
+    padding: 0px;
+}
+.footer__mail-tel:not(:last-child){
+    margin-bottom: 9px;
+}
+.footer__mail{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;   
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer__telephone{
+    font-style: normal;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: calc(14 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    margin: auto;
+    padding: auto;
+}
+.footer__left{
+    margin-right: 70px;
+}

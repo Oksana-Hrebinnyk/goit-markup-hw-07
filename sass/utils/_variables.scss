@@ -1,0 +1,33 @@
+:root {
+    /* Fonts */
+    $main-font: "Roboto", sans-serif;
+    $secondary-font: "Raleway";
+    /* Text colors */
+    $main-txt-cl: #212121;
+    $second-txt-cl: #757575;
+    $white-txt-cl: #FFFFFF;
+    /* Background colors */
+    $main-bg-cl: #2F303A;
+    $second-bs-cl: #F5F4FA;
+    $accent-cl: #2196F3;
+    /* transition */
+    $timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:auto;
+}
+.body{
+    color: var(--main-txt-cl);
+    font-family: "Roboto";
+}
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-2{
+    padding-top: 0px;
+    padding-bottom: 94px;
+}

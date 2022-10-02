@@ -1,0 +1,93 @@
+.portfolio__list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.portfolio__projects--item{
+    width: 370px;
+    background: #FFFFFF;
+    transition: 250ms var(--timing-function);
+
+    &:hover, &:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+}
+
+.portfolio__thumb{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio__thumb--link{
+    display: block;
+
+    &:hover, &:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+}
+    
+.projects{
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+.projects__heading{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    letter-spacing: 0.06em;
+    color: var(--main-txt-cl);
+    margin-bottom: 4px;
+}
+.projects__name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--second-txt-cl);
+}
+
+.overlay{
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    
+    transform: translateY(100%);
+    transition: 250ms var(--timing-function);
+    
+    width: 100%;
+    height: 100%;
+    
+    background: rgba(33, 150, 243, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-right: 23px;
+    padding-left: 23px;
+}
+.overlay__description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28 / 14);
+    letter-spacing: 0.03em;
+    color: var(--white-txt-cl);
+}
+.portfolio__thumb--link:hover .overlay{
+    transform: translateY(0);
+    transition: 250ms var(--timing-function);
+}
+.portfolio__thumb--link:focus .overlay{
+    transform: translateY(0);
+    transition: 250ms var(--timing-function);
+}
